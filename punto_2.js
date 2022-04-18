@@ -12,7 +12,7 @@ la figura.
 let figura = prompt(
   "ingrese si desea calcular el area de un triangulo o un rectangulo"
 );
-figura_Mayus = figura.toUpperCase();
+let figura_Mayus = figura.toUpperCase();
 
 if (figura_Mayus === "TRIANGULO" || figura_Mayus === "RECTANGULO") {
   switch (true) {
