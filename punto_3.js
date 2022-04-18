@@ -10,9 +10,6 @@ Por ej, si el número es 5 el resultado debería ser:
 */
 
 let num = Number(prompt("ingrese un numero"));
-if (isNaN(num)) {
-  console.log("los datos ingresados no son válidos");
-}
 
 for (let i = 1; i <= num; i++) {
   if (i % 2 === 0) {

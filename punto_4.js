@@ -10,7 +10,7 @@ let num = "";
 let contador = 0;
 
 do {
-  num = parseInt(prompt("ingrese un número"));
+  num = parseInt(prompt("ingrese un número para añadir a la suma"));
   suma = suma + num;
   contador++;
 } while (suma <= 50);

@@ -16,7 +16,9 @@ let num = [1, 2, 3, 4, 5];
 let pares = [];
 let impares = [];
 let operador = Math.ceil(Math.random() * 10);
-let producto = num.map((x) => x * operador);
+let producto = num.map(function (x) {
+  return x * operador;
+});
 
 for (const numero of producto) {
   if (numero % 2 === 0) {
